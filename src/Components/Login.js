@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./loginStyle.css";
 import loginImage from "../images/Component 1 – 1.svg";
 
 const Login = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Working");
+    console.log(email, password);
   };
   return (
     <div className="login-form">
@@ -19,14 +22,23 @@ const Login = () => {
         <hr />
         <form onSubmit={handleSubmit}>
           <div className="form-control">
-            <input type="email" id="email" name="email" placeholder="email" />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
             <input
               type="password"
               name="password"
               id="password"
               placeholder="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
             />
-            <a href="#">Forgot Password</a>
+            <Link>Forgot Password</Link>
             <button className="login-btn" type="submit">
               login
             </button>
@@ -37,7 +49,7 @@ const Login = () => {
         <p>
           new to PharmaNet?{" "}
           <span>
-            <a href="#">sign up</a>
+            <Link href="#">sign up</Link>
           </span>
         </p>
       </div>
