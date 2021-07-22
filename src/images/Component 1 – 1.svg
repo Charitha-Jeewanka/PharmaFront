@@ -1,0 +1,15 @@
+<svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="394" height="408" viewBox="0 0 394 408">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.143" y1="1" x2="0.766" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#47cfff"/>
+      <stop offset="1" stop-color="#099dff"/>
+    </linearGradient>
+  </defs>
+  <path id="Union_1" data-name="Union 1" d="M99.5,264a10,10,0,0,1-10-10V173.5H10a10,10,0,0,1-10-10v-62a10,10,0,0,1,10-10H89.5V10a10,10,0,0,1,10-10h64a10,10,0,0,1,10,10V91.5H254a10,10,0,0,1,10,10v62a10,10,0,0,1-10,10H173.5V254a10,10,0,0,1-10,10Z" transform="translate(0 130)" fill="url(#linear-gradient)"/>
+  <path id="Union_4" data-name="Union 4" d="M9.832,24.386V19.058H4.5a4.5,4.5,0,0,1,0-9.007H9.832V4.613a4.613,4.613,0,0,1,9.227,0v5.438H24.5a4.5,4.5,0,1,1,0,9.007H19.058v5.328a4.613,4.613,0,1,1-9.227,0Z" transform="translate(47 179.832)" fill="url(#linear-gradient)"/>
+  <path id="Union_5" data-name="Union 5" d="M9.832,24.386V19.058H4.5a4.5,4.5,0,0,1,0-9.007H9.832V4.613a4.613,4.613,0,0,1,9.227,0v5.438H24.5a4.5,4.5,0,1,1,0,9.007H19.058v5.328a4.613,4.613,0,1,1-9.227,0Z" transform="translate(155.706 61)" fill="url(#linear-gradient)"/>
+  <path id="Union_8" data-name="Union 8" d="M9.832,24.386V19.058H4.5a4.5,4.5,0,0,1,0-9.007H9.832V4.613a4.613,4.613,0,0,1,9.227,0v5.438H24.5a4.5,4.5,0,1,1,0,9.007H19.058v5.328a4.613,4.613,0,1,1-9.227,0Z" transform="translate(237.604 316)" fill="url(#linear-gradient)"/>
+  <path id="Union_6" data-name="Union 6" d="M9.832,24.386V19.058H4.5a4.5,4.5,0,0,1,0-9.007H9.832V4.613a4.613,4.613,0,0,1,9.227,0v5.438H24.5a4.5,4.5,0,1,1,0,9.007H19.058v5.328a4.613,4.613,0,1,1-9.227,0Z" transform="translate(197.161 379)" fill="url(#linear-gradient)"/>
+  <path id="Union_7" data-name="Union 7" d="M9.832,24.386V19.058H4.5a4.5,4.5,0,0,1,0-9.007H9.832V4.613a4.613,4.613,0,0,1,9.227,0v5.438H24.5a4.5,4.5,0,1,1,0,9.007H19.058v5.328a4.613,4.613,0,1,1-9.227,0Z" transform="translate(57 316)" fill="url(#linear-gradient)"/>
+  <path id="Subtraction_1" data-name="Subtraction 1" d="M177.958,286h-71a10.011,10.011,0,0,1-10-10V187.959H10a10.012,10.012,0,0,1-10-10V109.125a10.011,10.011,0,0,1,10-10H96.958V10a10.011,10.011,0,0,1,10-10h71a10.011,10.011,0,0,1,10,10V99.125H276a10.012,10.012,0,0,1,10,10v68.833a10.012,10.012,0,0,1-10,10H187.958V276A10.011,10.011,0,0,1,177.958,286ZM37,105.874a10.012,10.012,0,0,0-10,10v55.166a10.011,10.011,0,0,0,10,10h68.99V254a10.011,10.011,0,0,0,10,10h54.137a10.011,10.011,0,0,0,10-10V181.041H250a10.012,10.012,0,0,0,10-10V115.875a10.012,10.012,0,0,0-10-10H180.127V32a10.011,10.011,0,0,0-10-10H115.99a10.011,10.011,0,0,0-10,10v73.875Z" transform="translate(108 0)" fill="url(#linear-gradient)"/>
+</svg>
