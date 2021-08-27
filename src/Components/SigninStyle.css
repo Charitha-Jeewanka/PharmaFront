@@ -58,18 +58,19 @@
   text-align: left;
   margin-left: 3rem;
 }
-orm-right p {
+
+.form-right p {
   text-align: center;
   margin: 0.1rem 0 0 0;
 }
 
 hr {
   border: 1px solid white;
-  margin: 0 3rem;
+  margin: 0 rem;
 }
 
 .bottom-hr {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   border: 1px solid #ced4da;
 }
 
@@ -85,21 +86,32 @@ form {
   height: auto;
   margin: 1em auto;
   position: relative;
-  padding: 10px;
+  padding: 4px;
 }
 
 .form-control input {
   /* text-align: center; */
   width: 100%;
   vertical-align: middle;
-  margin: 3rem 3rem 0 3rem;
-  padding: 12px;
+  margin: 2rem 3rem 0 3rem;
+  padding: 6px;
   background: transparent;
   border: var(--font-placeholder-clr) solid;
   /* border-radius: 50px; */
   border-width: 0 0 2px;
   outline: none;
   color: white;
+}
+.form-control-checkbox{
+
+    width: 100%;
+    float: left;
+}
+.checkbox-lbl{
+    
+    font-size: large;
+    color: white;
+    text-align: right;
 }
 
 .form-control input:focus {
@@ -126,7 +138,13 @@ form {
   text-transform: uppercase;
   padding: 10px;
 }
+.check-con{
 
+  
+}
+.check-con input{
+  
+}
 .login-btn {
   background: transparent;
   font-family: poppins;
@@ -136,7 +154,7 @@ form {
   border: white 2px solid;
   width: 180px;
   height: 50px;
-  margin: 2rem;
+  margin: 1rem;
   border-radius: 50px;
   cursor: pointer;
 }

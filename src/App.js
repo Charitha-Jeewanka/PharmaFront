@@ -1,12 +1,14 @@
 import React from "react";
 import Login from "./Components/Login";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import Signin from "./Components/Signin";
+import About from "./Components/about";
+import { BrowserRouter as Router, Route ,Switch} from "react-router-dom";
 
 function App() {
   return (
     <Router>
       <Route>
-        <Login />
+        <About/>
       </Route>
     </Router>
   );
