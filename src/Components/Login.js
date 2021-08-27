@@ -5,9 +5,11 @@ import "../styles/loginStyle.css";
 import loginImage from "../images/Component 1 – 1.svg";
 
 const Login = () => {
-  const url = "https://localhost:44313/api/auth";
+  const url = "https://localhost:8000/api/auth";
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (email && password) {
@@ -28,6 +30,8 @@ const Login = () => {
         console.log(error);
       });
   };
+
+
   return (
     <div className="login-form">
       <div className="form-left">
@@ -67,7 +71,7 @@ const Login = () => {
         <p>
           new to PharmaNet?{" "}
           <span>
-            <Link to="/">sign up</Link>
+            <Link to="/signin">sign up</Link>
           </span>
         </p>
       </div>

@@ -9,14 +9,15 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/">
-          <Signin />
+          <Login/>
         </Route>
-        <Route path="/login">
-          <Login />
+        <Route path="/signin">
+          <Signin />
         </Route>
         <Route path="/about">
           <About />
         </Route>
+
       </Switch>
     </Router>
   );
