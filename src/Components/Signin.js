@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./SigninStyle.css";
+import "../styles/SigninStyle.css";
 import loginImage from "../images/Component 1 – 1.svg";
 
 const Signin = () => {
@@ -46,20 +46,23 @@ const Signin = () => {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
-         
-         <div className="check-con">
-         <input
-             className="form-control-checkbox"
-              type="checkbox"
-              name="checkbox"
-              id="checkbox"
-             
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-            />  </div>
-         <label className="checkbox-lbl"> I have agree with all terms of use & privacy policy.</label><br></br>
 
-       
+            <div className="check-con">
+              <input
+                className="form-control-checkbox"
+                type="checkbox"
+                name="checkbox"
+                id="checkbox"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />{" "}
+            </div>
+            <label className="checkbox-lbl">
+              {" "}
+              I have agree with all terms of use & privacy policy.
+            </label>
+            <br></br>
+
             <button className="login-btn" type="submit">
               sign up
             </button>
@@ -70,7 +73,7 @@ const Signin = () => {
         <p>
           Have you Already an account?{" "}
           <span>
-            <Link href=".Components/login.">Login</Link>
+            <Link to="/login">Login</Link>
           </span>
         </p>
       </div>

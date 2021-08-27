@@ -1,14 +1,32 @@
 import React, { useState } from "react";
+import axios from "axios";
 import { Link } from "react-router-dom";
-import "./loginStyle.css";
+import "../styles/loginStyle.css";
 import loginImage from "../images/Component 1 – 1.svg";
 
 const Login = () => {
+  const url = "https://localhost:44313/api/auth";
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(email, password);
+    if (email && password) {
+      const LoginRequest = { email, password };
+      console.log(LoginRequest);
+      setEmail("");
+      setPassword("");
+    }
+    axios
+      .post(`${url}`, {
+        email,
+        password,
+      })
+      .then(function (response) {
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   };
   return (
     <div className="login-form">
@@ -49,7 +67,7 @@ const Login = () => {
         <p>
           new to PharmaNet?{" "}
           <span>
-            <Link href="#">sign up</Link>
+            <Link to="/">sign up</Link>
           </span>
         </p>
       </div>
