@@ -1,11 +1,6 @@
 import React, { Component } from 'react'
 import './about.css';
-import project1 from './images/project1.jpg';
-import project2 from './images/project2.jpg';
-import project3 from './images/project3.jpg';
-import project4 from './images/project4.jpg';
-import img2 from './images/aboutUs.webp';
-import img1 from './images/phramcy1.png';
+
 
 class About extends Component{
     render(){
@@ -35,7 +30,6 @@ class About extends Component{
                     
                     <p className="backgroundp">Welcome!</p>
                         <div className="image">
-                         <img className="img1" src={img1} alt="actions" />
                         </div>
           </div>
 
@@ -58,17 +52,13 @@ class About extends Component{
              </div>
              <div className="thirdContent">
                 <div className="Content-mid1">
-                <img className="img3" src={img2} alt="actions" />
                      </div>
              </div>
              <div className="fourthContent">
                 <div className="fourthContent-mid1">
                     <h1 className="fourthContent-h1">What we are done so far...</h1>
                      <p className="fourthContent-mid-p"> Lorem Ipsum is simply dummy text of dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                     <img className="pr1" src={project1} alt="actions" />
-                     <img className="pr1" src={project2} alt="actions" />
-                     <img className="pr1" src={project3} alt="actions" />
-                     <img className="pr1" src={project4} alt="actions" />
+                   
                 
                 </div>
              </div>
