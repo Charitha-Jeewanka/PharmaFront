@@ -5,7 +5,7 @@ import "../styles/loginStyle.css";
 import loginImage from "../images/Component 1 – 1.svg";
 
 const Login = () => {
-  const url = "https://localhost:8000/api/auth";
+  const url = "https://localhost:5001/api/auth/login";
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 

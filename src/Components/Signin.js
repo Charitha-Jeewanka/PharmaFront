@@ -5,7 +5,7 @@ import loginImage from "../images/Component 1 – 1.svg";
 import axios from "axios";
 
 const Signin = () => {
-  const url = "https://localhost:8000/api/register";
+  const url = "https://localhost:5001/api/auth/register";
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -16,6 +16,7 @@ const Signin = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 if(isdisable){
+
   if (email && password) {
     const SigninRequest = { email, password };
     console.log(SigninRequest);
@@ -25,8 +26,6 @@ if(isdisable){
 
   }
 }
-    
-
     axios
       .post(`${url}`, {
         email,
